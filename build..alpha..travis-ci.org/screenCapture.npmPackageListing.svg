@@ -1,0 +1,10 @@
+<svg height="110" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="110" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26">  0.  2017-04-24 11:04:39 +0000   753874 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-24 11:04:39 +0000    24635 bytes  README.md</tspan>
+<tspan x="10" y="58">  2.  2017-04-24 11:04:39 +0000   459969 bytes  lib/cloc</tspan>
+<tspan x="10" y="74">  3.  2017-04-24 11:04:39 +0000   268437 bytes  other/screenshot.png</tspan>
+<tspan x="10" y="90">  4.  2017-04-24 11:04:39 +0000      833 bytes  package.json</tspan>
+</text>
+</svg>
