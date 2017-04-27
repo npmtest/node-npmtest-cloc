@@ -35,36 +35,52 @@
 ```json
 
 {
-    "name": "cloc",
-    "version": "2.2.0",
-    "description": "An npm module for distributing cloc by Al Danial http://cloc.sourceforge.net/",
-    "main": "lib/cloc",
-    "scripts": {
-        "test": "echo \"Error: no test specified\"",
-        "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "author": {
+        "name": "Kent C. Dodds",
+        "url": "http://kentcdodds.com"
     },
     "bin": {
         "cloc": "lib/cloc"
     },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/kentcdodds/cloc.git"
+    "bugs": {
+        "url": "https://github.com/kentcdodds/cloc/issues"
     },
+    "dependencies": {},
+    "description": "An npm module for distributing cloc by Al Danial http://cloc.sourceforge.net/",
+    "devDependencies": {
+        "semantic-release": "^6.3.2"
+    },
+    "directories": {},
+    "dist": {
+        "shasum": "ee38e476fd050edc1d2ef8357cbde274b7c7efb4",
+        "tarball": "https://registry.npmjs.org/cloc/-/cloc-2.2.0.tgz"
+    },
+    "gitHead": "5c6584e45681f7ce7242a8f7acc1fe43d462db43",
+    "homepage": "https://github.com/kentcdodds/cloc#readme",
     "keywords": [
         "cloc",
         "count lines of code",
         "lines of code",
         "loc"
     ],
-    "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com)",
     "license": "GPL-2.0",
-    "bugs": {
-        "url": "https://github.com/kentcdodds/cloc/issues"
+    "main": "lib/cloc",
+    "maintainers": [
+        {
+            "name": "kentcdodds"
+        }
+    ],
+    "name": "cloc",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kentcdodds/cloc.git"
     },
-    "homepage": "https://github.com/kentcdodds/cloc#readme",
-    "devDependencies": {
-        "semantic-release": "^6.3.2"
-    }
+    "scripts": {
+        "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+        "test": "echo \"Error: no test specified\""
+    },
+    "version": "2.2.0"
 }
 ```
 
